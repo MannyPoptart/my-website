@@ -9,24 +9,8 @@ html, body {
 }
 
 body {
-  background-image: linear-gradient(180deg, black 50%, white 100%);
   color: white;
   display: flex;
   flex-direction: column;
 }
 
-header {
-  padding: 2%;
-  text-align: center;
-}
-
-main {
-  padding: 4%;
-}
-
-footer {
-  color: red;
-  position: absolute;
-  bottom: 0;
-  padding: 2%;
-}
