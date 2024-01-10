@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(0deg, blue 25%, royalblue 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
