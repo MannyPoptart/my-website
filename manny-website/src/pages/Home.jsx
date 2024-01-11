@@ -6,6 +6,8 @@ function Home() {
   return (
     <div className='Home'>
 
+        <div id='snow'></div>
+
         <header id='homeHeader'>
             <h1>Home</h1>
         </header>
@@ -29,6 +31,9 @@ function Home() {
         <footer id='homeFooter'>
             <p>Manny's Portfolio &copy; 2024</p>
         </footer>
+
+        <script src="../scripts/snow.js"></script>
+        <script src="../scripts/particles.min.js"></script>
 
     
     </div>
