@@ -6,7 +6,9 @@ function Portfolio() {
   return (
     <div className='Portfolio'>
 
-        
+      <header id="header">
+        <h1>Portfolio</h1>
+      </header>
 
         <Navbar />
         
