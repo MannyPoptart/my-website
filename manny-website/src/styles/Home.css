@@ -33,7 +33,7 @@ body {
 }
 
 .Navbar ul li a:hover {
-    color: yellow;
+    color: lightcoral;
 }
 
 #homeHeader {
@@ -54,6 +54,6 @@ body {
 }
 
 #content {
-    color: #bafaff;
+    color: #ba8cf7;
     padding: 4rem;
 }
