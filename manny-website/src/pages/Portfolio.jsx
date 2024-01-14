@@ -6,11 +6,23 @@ function Portfolio() {
   return (
     <div className='Portfolio'>
 
-      <header id="header">
+      <header id="portHeader">
         <h1>Portfolio</h1>
       </header>
 
-        <Navbar />
+      <Navbar />
+
+      <section>
+
+        <p>WIP</p>
+
+      </section>
+
+
+
+      <footer id='portFooter'>
+        <p>Manny's Website &copy; 2024</p>
+      </footer>
         
     </div>
   )

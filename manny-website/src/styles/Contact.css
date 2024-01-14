@@ -3,21 +3,20 @@
     padding: 0;
 }
 
-.Home, html, body {
+html, body {
     height: 100%;
     width: 100%;
 }
 
-.Home, body {
+.Contact, body {
     background-image: linear-gradient(180deg, black 75%, hotpink 175%);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     overflow: hidden;
-
 }
 
-.Home .Navbar ul {
+.Contact .Navbar ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -26,39 +25,39 @@
     border-bottom: 1px solid hotpink;
 }
 
-.Home .Navbar ul li {
+.Contact .Navbar ul li {
     padding: 10px;
 }
 
-.Home .Navbar ul li a {
+.Contact .Navbar ul li a {
     text-decoration: none;
     color: violet;
     font-size: 18pt;
 }
 
-.Home .Navbar ul li a:hover {
+.Contact .Navbar ul li a:hover {
     color: lightcoral;
 }
 
-#homeHeader {
+#conHeader {
     color: transparent;
-    padding: 1rem;
     text-align: center;
-    font-size: 24pt;
     letter-spacing: 5pt;
+    padding: 1rem;
+    font-size: 24pt;
     -webkit-text-stroke: hotpink 2px;
 }
 
-#homeFooter {
+#conFooter {
     color: rgb(250, 71, 125);
     padding: 2rem;
     font-size: larger;
     margin-top: auto;
 }
 
-#content {
+#contactContent {
     color: #ba8cf7;
     padding: 1rem;
     text-align: center;
-    flex-grow: 1;
+    font-size: 18pt;
 }

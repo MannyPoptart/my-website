@@ -8,20 +8,49 @@ html, body {
     width: 100%;
 }
 
-.Portfolio {
-    width: 100vw;
-    height: 100vh;
-    background-image: linear-gradient(180deg, black 75%, pink 175%);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+.Portfolio, body {
+    background-image: linear-gradient(180deg, black 75%, hotpink 175%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
-#header {
+.Portfolio .Navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1rem;
+    border-top: 1px solid hotpink;
+    border-bottom: 1px solid hotpink;
+}
+
+.Portfolio .Navbar ul li {
+    padding: 10px;
+}
+
+.Portfolio .Navbar ul li a {
+    text-decoration: none;
+    color: violet;
+    font-size: 18pt;
+}
+
+.Portfolio .Navbar ul li a:hover {
+    color: lightcoral;
+}
+
+#portHeader {
   color: transparent;
   text-align: center;
   letter-spacing: 5pt;
   padding: 1rem;
   font-size: 24pt;
   -webkit-text-stroke: hotpink 2px;
+}
+
+#portFooter {
+    color: rgb(250, 71, 125);
+    padding: 2rem;
+    font-size: larger;
+    margin-top: auto;
 }
