@@ -20,8 +20,6 @@ function Home() {
             <p>Feel free to contact me via my contact page</p>
 
 
-
-
         </section>
 
         <footer id='homeFooter'>
