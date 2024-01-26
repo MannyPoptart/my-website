@@ -44,10 +44,7 @@ function checkWin() {
             cells[situation[1] - 1].textContent === curPlayer &&
             cells[situation[2] - 1].textContent === curPlayer) {
             win = true;
-        } else {
-            win = false;
-            message.innerHTML = 'Draw!';
-        }
+        } 
     });
     return win;
 }
