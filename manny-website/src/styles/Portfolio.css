@@ -54,3 +54,32 @@ html, body {
     font-size: larger;
     margin-top: auto;
 }
+
+#portProjects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    color: pink;
+    line-height: 4.5rem;
+    font-size: 16pt;
+}
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 50vh;
+
+}
+
+.cell {
+    background-color: palevioletred;
+    display: grid;
+    place-items: center;
+    width: 30%;
+    height: 33%;
+    border: palegreen 4px solid;
+    font-size: 32pt;
+}
