@@ -1,0 +1,22 @@
+.Navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1rem;
+    border-top: 1px solid hotpink;
+    border-bottom: 1px solid hotpink;
+}
+
+.Navbar ul li {
+    padding: 10px;
+}
+
+.Navbar ul li a {
+    text-decoration: none;
+    color: violet;
+    font-size: 18pt;
+}
+
+.Navbar ul li a:hover {
+    color: lightcoral;
+}

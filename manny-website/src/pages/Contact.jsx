@@ -13,8 +13,13 @@ function Contact() {
         <Navbar />
 
         <section id='contactContent'>
-                
-                <p>WIP</p>
+          
+          <h1>Links</h1>
+          <ul id='links'>
+            <li><a href="https://www.linkedin.com/in/manuel-aguilera-46542121a/">LinkedIn</a></li>
+            <li><a href="https://github.com/MannyPoptart">Github</a></li>
+            <li><a href="mannya4098@gmail.com">Email</a></li>
+          </ul>
 
         </section>
 

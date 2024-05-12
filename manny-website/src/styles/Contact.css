@@ -13,30 +13,28 @@ html, body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    width: 100vw;
     overflow: auto;
 }
 
-.Contact .Navbar ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+
+#links {
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#links li {
     padding: 1rem;
-    border-top: 1px solid hotpink;
-    border-bottom: 1px solid hotpink;
 }
 
-.Contact .Navbar ul li {
-    padding: 10px;
-}
-
-.Contact .Navbar ul li a {
+#links a {
     text-decoration: none;
     color: violet;
-    font-size: 18pt;
 }
 
-.Contact .Navbar ul li a:hover {
-    color: lightcoral;
+#links a:hover {
+    color: lightblue;
 }
 
 #conHeader {
